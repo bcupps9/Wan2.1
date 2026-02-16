@@ -11,6 +11,7 @@ easydict
 ftfy
 dashscope
 imageio-ffmpeg
-flash_attn
+# flash_attn is optional for speed; keep disabled for broader HPC compatibility.
+# Install manually only on nodes that support it.
 gradio>=5.0.0
 numpy>=1.23.5,<2

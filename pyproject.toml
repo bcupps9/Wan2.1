@@ -26,7 +26,7 @@ dependencies = [
     "ftfy",
     "dashscope",
     "imageio-ffmpeg",
-    "flash_attn",
+    # flash_attn is optional for speed; keep disabled for broader HPC compatibility.
     "gradio>=5.0.0",
     "numpy>=1.23.5,<2"
 ]
@@ -63,5 +63,4 @@ profile = "black"
 
 [tool.mypy]
 strict = true
-
 
